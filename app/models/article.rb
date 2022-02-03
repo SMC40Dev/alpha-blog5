@@ -1,5 +1,5 @@
 class Article < ApplicationRecord
-    validates :title,  presence: true, length: {minimum: 4, maximum: 20}
+    validates :title,  presence: true, length: {minimum: 4, maximum: 50}
     validates :description, presence: true, length: {minimum: 2, maximum: 100}
     # uniqueness: {
     #   # object = article object being validated

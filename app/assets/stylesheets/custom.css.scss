@@ -1,0 +1,65 @@
+@import "bootstrap";
+
+.navbar-brand {
+    font-size: 4rem;
+    font-style:italic;
+    color:white !important;
+}
+
+.navbar {
+    background-color: blueviolet !important;
+    color: red;
+}
+    
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: goldenrod !important;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}     
+    
+#home-container{
+    margin-top: 25px;
+}    
+     
+#page-content {
+    flex: 1 0 auto;
+    background-color: lightgrey;
+}
+
+.flex-grow {
+    flex: 1 0 auto;
+}
+
+h1 {
+    color: red;
+}
+
+.jumbotron {
+    background-image: asset-url("writing.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-item {
+    color: green !important;
+}
+
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: maroon;
+    text-align: center;
+    background-color: green;
+    }

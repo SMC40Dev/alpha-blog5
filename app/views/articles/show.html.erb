@@ -1,5 +1,10 @@
-<h1>Show page</h1>
+<h1 class='text-center mt-4'>Articles</h1>
 
 <%= "Title: #{@article.title}" %>
 <br>
 <%= "Description: #{@article.description}" %>
+<br>
+<br>
+<%= link_to 'Edit', edit_article_path(@article) %> | 
+<%= link_to 'Delete', article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %> | 
+<%= link_to('Return to articles list', articles_path)%>
